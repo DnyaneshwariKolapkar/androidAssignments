@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AllAssignments">
         <activity
+            android:name=".bdaygreet"
+            android:exported="true"
+            android:label="@string/title_activity_bdaygreet"
+            android:theme="@style/Theme.AllAssignments.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
