@@ -16,6 +16,7 @@ class menus : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menus)
+        supportActionBar?.hide()
         val showMenuBtn = findViewById<Button>(R.id.showMenuBtn)
         val selectedTv = findViewById<TextView>(R.id.selectedTv)
 

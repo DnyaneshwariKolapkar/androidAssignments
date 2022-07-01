@@ -24,6 +24,7 @@ class androidHistory : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_android_history)
+        supportActionBar?.hide()
         var listView = findViewById<ListView>(R.id.listView)
         val myListAdapter = listAdapter_ah(this,language,description,imageId)
         listView.adapter = myListAdapter

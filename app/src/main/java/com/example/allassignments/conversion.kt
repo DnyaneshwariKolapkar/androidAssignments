@@ -11,6 +11,7 @@ class conversion : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_conversion)
+        supportActionBar?.hide()
         val btn = findViewById<Button>(R.id.button)
         val x = findViewById<EditText>(R.id.editTextTextPersonName)
         val result = findViewById<TextView>(R.id.textView)

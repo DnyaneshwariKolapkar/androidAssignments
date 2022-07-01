@@ -14,6 +14,7 @@ class fragment_demo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fragment_demo)
+        supportActionBar?.hide()
         binding = ActivityFragmentDemoBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
