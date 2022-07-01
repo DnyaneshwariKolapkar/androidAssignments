@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/selectedTv"
+        android:layout_width="181dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="554dp"
+        android:text=" "
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/showMenuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="502dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/purple_200"
+        android:text="Show PopUp"
+        app:layout_constraintBottom_toBottomOf="@id/selectedTv"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/popup"
+        android:layout_width="151dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="634dp"
+        android:text="PopUp Menu"
+        android:textColor="#88BEE8"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/context"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="391dp"
+        android:text="Context Menu"
+        android:textColor="#88BEE8"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/context_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="349dp" />
+
+</RelativeLayout>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AllAssignments">
         <activity
+            android:name=".menus"
+            android:exported="true" />
+        <activity
             android:name=".fragment_demo"
             android:exported="true" />
         <activity

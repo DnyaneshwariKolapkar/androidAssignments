@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val btn3 = findViewById<Button>(R.id.button3)
         val btn4 = findViewById<Button>(R.id.button4)
         val btn5 = findViewById<Button>(R.id.button5)
+        val btn6 = findViewById<Button>(R.id.button6)
 
         btn1.setOnClickListener {
             startActivity(Intent(this, bdaygreet::class.java))
@@ -30,6 +31,9 @@ class MainActivity : AppCompatActivity() {
         }
         btn5.setOnClickListener {
             startActivity(Intent(this, fragment_demo::class.java))
+        }
+        btn6.setOnClickListener {
+            startActivity(Intent(this, menus::class.java))
         }
 
     }
