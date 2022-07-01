@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AllAssignments">
         <activity
+            android:name=".androidHistory"
+            android:exported="true" />
+        <activity
             android:name=".conversion"
             android:exported="true" />
         <activity
