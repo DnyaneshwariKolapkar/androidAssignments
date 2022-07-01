@@ -11,9 +11,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btn1 = findViewById<Button>(R.id.button1)
+        val btn2 = findViewById<Button>(R.id.button2)
 
         btn1.setOnClickListener {
             startActivity(Intent(this, bdaygreet::class.java))
+        }
+        btn2.setOnClickListener {
+            startActivity(Intent(this, conversion::class.java))
         }
     }
 }
